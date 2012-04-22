@@ -1,0 +1,21 @@
+Somewhat Secure Chat is a simple chat application written in VB.NET that will allow you to securely (3DES encrypted) chat with a another computer on your LAN (though it could work over the internet).
+
+INSTALLATION
+
+Open the project file (SomewhatSecureChat.sln) in Visual Studio or Visual Basic Express and build/compile it.  The resulting file can be found in the /SomewhatSecureChat/bin/Release/ directory.  .NET Framework 4.0 is required to run the application.
+
+HOW TO USE
+
+Both parties will need to have this application running (and listening) in order to chat.   Simply agree on a mutual password and record your friend's listening port number and IP address, and you'll be chatting in no time! 
+
+To SEND an encrypted message, type in your message, the recipient's IP address and port number, and type in a password of your choice to encrypt it with.  The recipient will also need this password to decrypt it.
+
+To RECEIEVE messages, type in the same password the other party used to encrypt them, and the port you'd like to listen from.  The other party needs to know this port in order to send a message to you.
+   
+
+Feel free to improve or modify this application!
+
+-capablemonkey
+
+
+blog post and compiled binary here: http://capablemonkey.blogspot.com/2012/03/somewhatsecurechat-chat-with-another.html
